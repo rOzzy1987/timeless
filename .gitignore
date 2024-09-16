@@ -7,4 +7,4 @@ out
 **/*.orig
 resources-*/strings.xml
 resources-*/fonts/*.*
-node-modules
+node_modules
