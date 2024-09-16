@@ -1,0 +1,34 @@
+<strings>
+
+    <string id="AppName">Timeless</string>
+
+    <string id="CaloriesGoal">Calories goal</string>
+    <string id="CaloriesGoalError">Wrong number</string>
+    <string id="ProductName">Garmin</string>
+
+
+    <string id="ProductNameLbl">Product name</string>
+    <string id="CaloriesGoalBgColor">Calories goal color</string>
+    <string id="StepGoalBgColor">Step goal color</string>
+    <string id="ProductNameColor">Product name color</string>
+    <string id="CaloriesColor">Calories color</string>
+    <string id="StepsColor">Steps color</string>
+    <string id="ClockColor">Clock color</string>
+
+    <string id="white">White</string>
+    <string id="ltGray">Light gray</string>
+    <string id="dkGray">Dark gray</string>
+    <string id="black">Black</string>
+    <string id="red">Red</string>
+    <string id="dkRed">Dark red</string>
+    <string id="orange">Orange</string>
+    <string id="yellow">Yellow</string>
+    <string id="green">Green</string>
+    <string id="dkGreen">Dark green</string>
+    <string id="blue">Blue</string>
+    <string id="dkBlue">Dark blue</string>
+    <string id="purple">Purple</string>
+    <string id="pink">Pink</string>
+    <string id="none">None</string>
+
+</strings>

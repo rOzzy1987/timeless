@@ -1,0 +1,10 @@
+bin
+gen
+internal-mir
+mir
+out
+.vscodebmpSizeVarbmpSizeVarbmpSizeVar
+**/*.orig
+resources-*/strings.xml
+resources-*/fonts/*.*
+node-modules

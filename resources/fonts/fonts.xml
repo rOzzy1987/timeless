@@ -1,0 +1,5 @@
+<fonts>
+	<font id="ZenL" filename="../../resources-round-240x240/fonts/zen-n-l.fnt" antialias="true" filter=".,:/0123456789"/>
+	<font id="SarM" filename="../../resources-round-240x240/fonts/sar-n-m.fnt" antialias="true" filter=".,:/0123456789"/>
+	<font id="SarS" filename="../../resources-round-240x240/fonts/sar-n-s.fnt" antialias="true" filter=".,:/0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZĒÍ"/>
+</fonts>

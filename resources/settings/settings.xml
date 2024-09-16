@@ -1,0 +1,121 @@
+<settings>
+
+    <setting propertyKey="@Properties.CaloriesGoal" title="@Strings.CaloriesGoal">
+        <settingConfig type="numeric" min="0" max="15000" errorMessage="@Strings.CaloriesGoalError"/>
+    </setting>
+    <setting propertyKey="@Properties.ProductName" title="@Strings.ProductNameLbl">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.CaloriesGoalBgColor" title="@Strings.CaloriesGoalBgColor">
+        <settingConfig type="list">
+            <listEntry value="0xFFFFFF">@Strings.white</listEntry>
+            <listEntry value="0xAAAAAA">@Strings.ltGray</listEntry>
+            <listEntry value="0x555555">@Strings.dkGray</listEntry>
+            <listEntry value="0x000000">@Strings.black</listEntry>
+            <listEntry value="0xFF0000">@Strings.red</listEntry>
+            <listEntry value="0xAA0000">@Strings.dkRed</listEntry>
+            <listEntry value="0xFF5500">@Strings.orange</listEntry>
+            <listEntry value="0xFFAA00">@Strings.yellow</listEntry>
+            <listEntry value="0x00FF00">@Strings.green</listEntry>
+            <listEntry value="0x00AA00">@Strings.dkGreen</listEntry>
+            <listEntry value="0x00AAFF">@Strings.blue</listEntry>
+            <listEntry value="0x0000FF">@Strings.dkBlue</listEntry>
+            <listEntry value="0xAA00FF">@Strings.purple</listEntry>
+            <listEntry value="0xFF00FF">@Strings.pink</listEntry>
+            <listEntry value="-1">@Strings.none</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.StepGoalBgColor" title="@Strings.StepGoalBgColor">
+        <settingConfig type="list">
+            <listEntry value="0xFFFFFF">@Strings.white</listEntry>
+            <listEntry value="0xAAAAAA">@Strings.ltGray</listEntry>
+            <listEntry value="0x555555">@Strings.dkGray</listEntry>
+            <listEntry value="0x000000">@Strings.black</listEntry>
+            <listEntry value="0xFF0000">@Strings.red</listEntry>
+            <listEntry value="0xAA0000">@Strings.dkRed</listEntry>
+            <listEntry value="0xFF5500">@Strings.orange</listEntry>
+            <listEntry value="0xFFAA00">@Strings.yellow</listEntry>
+            <listEntry value="0x00FF00">@Strings.green</listEntry>
+            <listEntry value="0x00AA00">@Strings.dkGreen</listEntry>
+            <listEntry value="0x00AAFF">@Strings.blue</listEntry>
+            <listEntry value="0x0000FF">@Strings.dkBlue</listEntry>
+            <listEntry value="0xAA00FF">@Strings.purple</listEntry>
+            <listEntry value="0xFF00FF">@Strings.pink</listEntry>
+            <listEntry value="-1">@Strings.none</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.ProductNameColor" title="@Strings.ProductNameColor">
+        <settingConfig type="list">
+            <listEntry value="0xFFFFFF">@Strings.white</listEntry>
+            <listEntry value="0xAAAAAA">@Strings.ltGray</listEntry>
+            <listEntry value="0x555555">@Strings.dkGray</listEntry>
+            <listEntry value="0x000000">@Strings.black</listEntry>
+            <listEntry value="0xFF0000">@Strings.red</listEntry>
+            <listEntry value="0xAA0000">@Strings.dkRed</listEntry>
+            <listEntry value="0xFF5500">@Strings.orange</listEntry>
+            <listEntry value="0xFFAA00">@Strings.yellow</listEntry>
+            <listEntry value="0x00FF00">@Strings.green</listEntry>
+            <listEntry value="0x00AA00">@Strings.dkGreen</listEntry>
+            <listEntry value="0x00AAFF">@Strings.blue</listEntry>
+            <listEntry value="0x0000FF">@Strings.dkBlue</listEntry>
+            <listEntry value="0xAA00FF">@Strings.purple</listEntry>
+            <listEntry value="0xFF00FF">@Strings.pink</listEntry>
+            <listEntry value="-1">@Strings.none</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.CaloriesColor" title="@Strings.CaloriesColor">
+        <settingConfig type="list">
+            <listEntry value="0xFFFFFF">@Strings.white</listEntry>
+            <listEntry value="0xAAAAAA">@Strings.ltGray</listEntry>
+            <listEntry value="0x555555">@Strings.dkGray</listEntry>
+            <listEntry value="0x000000">@Strings.black</listEntry>
+            <listEntry value="0xFF0000">@Strings.red</listEntry>
+            <listEntry value="0xAA0000">@Strings.dkRed</listEntry>
+            <listEntry value="0xFF5500">@Strings.orange</listEntry>
+            <listEntry value="0xFFAA00">@Strings.yellow</listEntry>
+            <listEntry value="0x00FF00">@Strings.green</listEntry>
+            <listEntry value="0x00AA00">@Strings.dkGreen</listEntry>
+            <listEntry value="0x00AAFF">@Strings.blue</listEntry>
+            <listEntry value="0x0000FF">@Strings.dkBlue</listEntry>
+            <listEntry value="0xAA00FF">@Strings.purple</listEntry>
+            <listEntry value="0xFF00FF">@Strings.pink</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.StepsColor" title="@Strings.StepsColor">
+        <settingConfig type="list">
+            <listEntry value="0xFFFFFF">@Strings.white</listEntry>
+            <listEntry value="0xAAAAAA">@Strings.ltGray</listEntry>
+            <listEntry value="0x555555">@Strings.dkGray</listEntry>
+            <listEntry value="0x000000">@Strings.black</listEntry>
+            <listEntry value="0xFF0000">@Strings.red</listEntry>
+            <listEntry value="0xAA0000">@Strings.dkRed</listEntry>
+            <listEntry value="0xFF5500">@Strings.orange</listEntry>
+            <listEntry value="0xFFAA00">@Strings.yellow</listEntry>
+            <listEntry value="0x00FF00">@Strings.green</listEntry>
+            <listEntry value="0x00AA00">@Strings.dkGreen</listEntry>
+            <listEntry value="0x00AAFF">@Strings.blue</listEntry>
+            <listEntry value="0x0000FF">@Strings.dkBlue</listEntry>
+            <listEntry value="0xAA00FF">@Strings.purple</listEntry>
+            <listEntry value="0xFF00FF">@Strings.pink</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.ClockColor" title="@Strings.ClockColor">
+        <settingConfig type="list">
+            <listEntry value="0xFFFFFF">@Strings.white</listEntry>
+            <listEntry value="0xAAAAAA">@Strings.ltGray</listEntry>
+            <listEntry value="0x555555">@Strings.dkGray</listEntry>
+            <listEntry value="0x000000">@Strings.black</listEntry>
+            <listEntry value="0xFF0000">@Strings.red</listEntry>
+            <listEntry value="0xAA0000">@Strings.dkRed</listEntry>
+            <listEntry value="0xFF5500">@Strings.orange</listEntry>
+            <listEntry value="0xFFAA00">@Strings.yellow</listEntry>
+            <listEntry value="0x00FF00">@Strings.green</listEntry>
+            <listEntry value="0x00AA00">@Strings.dkGreen</listEntry>
+            <listEntry value="0x00AAFF">@Strings.blue</listEntry>
+            <listEntry value="0x0000FF">@Strings.dkBlue</listEntry>
+            <listEntry value="0xAA00FF">@Strings.purple</listEntry>
+            <listEntry value="0xFF00FF">@Strings.pink</listEntry>
+            <listEntry value="-1">@Strings.none</listEntry>
+        </settingConfig>
+    </setting>
+</settings>

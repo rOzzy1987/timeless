@@ -1,0 +1,11 @@
+<properties>
+    <property id="CaloriesGoal" type="number">2300</property>
+    <property id="ProductName" type="string"></property>
+
+    <property id="CaloriesGoalBgColor" type="number">0x555555</property>
+    <property id="StepGoalBgColor" type="number">0x555555</property>
+    <property id="ProductNameColor" type="number">0xAAAAAA</property>
+    <property id="CaloriesColor" type="number">0xFFFFFF</property>
+    <property id="StepsColor" type="number">0xFFFFFF</property>
+    <property id="ClockColor" type="number">0xFF0000</property>
+</properties>
