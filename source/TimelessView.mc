@@ -41,6 +41,7 @@ class TimelessView extends WatchUi.WatchFace {
 		_fntM = WatchUi.loadResource(Rez.Fonts.SarM);
 		_fntS = WatchUi.loadResource(Rez.Fonts.SarS);
     }
+
     function readSettings() as Void {
         _productName = Application.Properties.getValue("ProductName").toString().toUpper();
         _calBg.Goal = Application.Properties.getValue("CaloriesGoal").toNumber();
@@ -57,7 +58,6 @@ class TimelessView extends WatchUi.WatchFace {
         }
     }
 
-    // Update the view
     function onUpdate(dc as Dc) as Void {
         if (_w == 0 || _h == 0) {
             _w = dc.getWidth();
@@ -74,19 +74,12 @@ class TimelessView extends WatchUi.WatchFace {
         dc.clear();
 
         var info = ActivityMonitor.getInfo();
-
-        info.calories = 1483;
-        info.steps = 8193;
-        info.stepGoal = 13800;
-
         _stpBg.Goal = info.stepGoal;
-
-        _calBg.Value = info.calories;
         _stpBg.Value = info.steps;
+        _calBg.Value = info.calories;
 
         _calBg.draw(dc);
         _stpBg.draw(dc);
-        _clk.draw(dc);
 
         dc.setColor(_stpColor, Graphics.COLOR_TRANSPARENT);
         dc.drawText(_c.X, _c.Y - _fmh * 6 / 7, _fntM, info.steps.format("%05d"), Graphics.TEXT_JUSTIFY_CENTER);
@@ -96,6 +89,7 @@ class TimelessView extends WatchUi.WatchFace {
         dc.setColor(_productColor, Graphics.COLOR_TRANSPARENT);
         dc.drawText(_c.X, _c.Y, _fntS, _productName , Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
         dc.drawText(_c.X, _h - _fsh * 3 / 2, _fntS, "TIMELESS", Graphics.TEXT_JUSTIFY_CENTER);
-    }
 
+        _clk.draw(dc);
+    }
 }
