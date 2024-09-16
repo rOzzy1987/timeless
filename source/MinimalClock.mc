@@ -33,7 +33,7 @@ class MinimalClock {
 
         var time = System.getClockTime();
 
-        var p1 = _p1.Rotate(_c, time.hour * 360 / 12);
+        var p1 = _p1.Rotate(_c, (time.hour * 360 / 12) + (time.min * 30 / 60));
         var p2 = _p2.Rotate(_c, time.min * 360 / 60);
         var p3 = _p3.Rotate(_c, time.min * 360 / 60);
 
