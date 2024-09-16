@@ -28,3 +28,9 @@ Using the ConnectIQ SDK yyou can build this project yourself. However, you'll ne
 - Run tools\create-resources.bat
 
 
+## Footnote
+Timeless is available for free in the ConnectIQ store [here](https://apps.garmin.com/apps/7e7e0e0a-49a3-4df0-8ec4-25eca9e3063f), and open source as you see.
+
+If you want to support me you can do so [here](https://revolut.me/mihlywer)
+
+Thank you!
