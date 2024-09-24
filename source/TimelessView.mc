@@ -48,10 +48,13 @@ class TimelessView extends WatchUi.WatchFace {
         
         _stpBg.Color = Application.Properties.getValue("StepGoalBgColor").toNumber();
         _calBg.Color = Application.Properties.getValue("CaloriesGoalBgColor").toNumber();
-        _clk.Color = Application.Properties.getValue("ClockColor").toNumber();
         _calColor = Application.Properties.getValue("CaloriesColor").toNumber();
         _stpColor = Application.Properties.getValue("StepsColor").toNumber();
         _productColor = Application.Properties.getValue("ProductNameColor").toNumber();
+
+        _clk.Color = Application.Properties.getValue("ClockColor").toNumber();
+        _clk.Size = Application.Properties.getValue("ClockSize").toNumber();
+        _clk.init();
 
         if (_productName.equals("")){
             _productName = WatchUi.loadResource(Rez.Strings.ProductName).toUpper();

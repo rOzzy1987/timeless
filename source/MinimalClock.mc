@@ -7,6 +7,8 @@ class MinimalClock {
 
     public var Color as Number = Graphics.COLOR_LT_GRAY;
 
+    public var Size as Number = 1;
+
     private var _lw = 0;
     
     private var _w = 0;
@@ -17,6 +19,14 @@ class MinimalClock {
     private var _p2 = new Point(0,0);
     private var _p3 = new Point(0,0);
 
+    function init() {
+        _lw = _w * Size / 200;
+
+        _p1 = new Point(_c.X, _lw);
+        _p2 = new Point(_c.X, _lw * 3);
+        _p3 = new Point(_c.X, _lw * 5);
+    }
+
 
     function draw(dc as Dc) as Void {
         if (_w == 0 || _h == 0) {
@@ -24,11 +34,7 @@ class MinimalClock {
             _h = dc.getHeight();
             _c = new Point(_w / 2, _h / 2);
 
-            _lw = _w * 3 / 200;
-
-            _p1 = new Point(_c.X, _lw);
-            _p2 = new Point(_c.X, _lw * 3);
-            _p3 = new Point(_c.X, _lw * 5);
+            init();
         }
 
         var time = System.getClockTime();

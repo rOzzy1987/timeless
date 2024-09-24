@@ -8,4 +8,5 @@
     <property id="CaloriesColor" type="number">0xFFFFFF</property>
     <property id="StepsColor" type="number">0xFFFFFF</property>
     <property id="ClockColor" type="number">0xFF0000</property>
+    <property id="ClockSize" type="number">4</property>
 </properties>

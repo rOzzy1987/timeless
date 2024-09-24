@@ -14,6 +14,7 @@
     <string id="CaloriesColor">Calories color</string>
     <string id="StepsColor">Steps color</string>
     <string id="ClockColor">Clock color</string>
+    <string id="ClockSize">Clock size</string>
 
     <string id="white">White</string>
     <string id="ltGray">Light gray</string>
@@ -30,5 +31,10 @@
     <string id="purple">Purple</string>
     <string id="pink">Pink</string>
     <string id="none">None</string>
+    
+    <string id="s">Small</string>
+    <string id="m">Medium</string>
+    <string id="l">Large</string>
+    <string id="xl">Extra large</string>
 
 </strings>

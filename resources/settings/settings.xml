@@ -118,4 +118,12 @@
             <listEntry value="-1">@Strings.none</listEntry>
         </settingConfig>
     </setting>
+    <setting propertyKey="@Properties.ClockSize" title="@Strings.ClockSize">
+        <settingConfig type="list">
+            <listEntry value="3">@Strings.s</listEntry>
+            <listEntry value="4">@Strings.m</listEntry>
+            <listEntry value="5">@Strings.l</listEntry>
+            <listEntry value="6">@Strings.xl</listEntry>
+        </settingConfig>
+    </setting>
 </settings>
